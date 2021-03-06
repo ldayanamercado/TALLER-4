@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Libro">
+  <ClassDiagramComponents>
+    <Class name="Libro" package="" visibility="public" xPosition="258.0" yPosition="1.0">
+      <Fields>
+        <Field name="titulo" type="String" visibility="private"/>
+        <Field name="primeNombre" type="String" visibility="private"/>
+        <Field name="segundoNombre" type="String" visibility="private"/>
+        <Field name="primeApellido" type="String" visibility="private"/>
+        <Field name="ISBN" type="String" visibility="private"/>
+        <Field name="paginas" type="String" visibility="private"/>
+        <Field name="edicion" type="String" visibility="private"/>
+        <Field name="editorial" type="String" visibility="private"/>
+        <Field name="ciudad" type="String" visibility="private"/>
+        <Field name="pais" type="String" visibility="private"/>
+        <Field name="fechaEdicion" type="Strng" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getTitulo" returnType="String" visibility="public"/>
+        <Method name="getPrimeNombre" returnType="String" visibility="public"/>
+        <Method name="getSegundoNombre" returnType="String" visibility="public"/>
+        <Method name="getPrimeApellido" returnType="String" visibility="public"/>
+        <Method name="getISBN" returnType="String" visibility="public"/>
+        <Method name="getPaginas" returnType="String" visibility="public"/>
+        <Method name="getEdicion" returnType="String" visibility="public"/>
+        <Method name="getEditorial" returnType="String" visibility="public"/>
+        <Method name="getCiudad" returnType="String" visibility="public"/>
+        <Method name="getPais" returnType="String" visibility="public"/>
+        <Method name="getFechaEdicion" returnType="Strng" visibility="public"/>
+        <Method name="setTitulo" returnType="void" visibility="public">
+          <Argument type="String" name="titulo"/>
+        </Method>
+        <Method name="setPrimernombre" returnType="Void" visibility="public">
+          <Argument type="String" name="primeNombre"/>
+        </Method>
+        <Method name="setSegundoNombre" returnType="Void" visibility="public">
+          <Argument type="String" name="segundoNombre"/>
+        </Method>
+        <Method name="setPrimeApellido" returnType="Void" visibility="public">
+          <Argument type="String" name="PrimeApellido"/>
+        </Method>
+        <Method name="setISBN" returnType="Void" visibility="public">
+          <Argument type="String" name="ISBN"/>
+        </Method>
+        <Method name="setPaginas" returnType="Void" visibility="public">
+          <Argument type="String" name="paginas"/>
+        </Method>
+        <Method name="setEdicion" returnType="Void" visibility="public">
+          <Argument type="String" name="edicion"/>
+        </Method>
+        <Method name="setEditorial" returnType="Void" visibility="public">
+          <Argument type="String" name="editorial"/>
+        </Method>
+        <Method name="setCiudad" returnType="Void" visibility="public">
+          <Argument type="String" name="ciudad"/>
+        </Method>
+        <Method name="setPais" returnType="Void" visibility="public">
+          <Argument type="String" name="pais"/>
+        </Method>
+        <Method name="setFechaEdicion" returnType="Void" visibility="public">
+          <Argument type="Strng" name="fechaEdicion"/>
+        </Method>
+        <Method name="mostrar" returnType="void" visibility="public"/>
+        <Method name="leer" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

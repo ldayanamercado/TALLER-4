@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Estudiante">
+  <ClassDiagramComponents>
+    <Class name="Estudiante" package="" visibility="public" xPosition="253.0" yPosition="89.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="notaCorte1" type="float" visibility="private"/>
+        <Field name="notaCorte2" type="float" visibility="private"/>
+        <Field name="notaCorte3" type="float" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getNotacorte1" returnType="float" visibility="public"/>
+        <Method name="getNotaCorte2" returnType="float" visibility="public"/>
+        <Method name="NotaCorte3" returnType="float" visibility="public"/>
+        <Method name="calcularDefinitiva" returnType="float" visibility="public"/>
+        <Method name="setNombre" returnType="Void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="setNotaCorte1" returnType="Void" visibility="public">
+          <Argument type="float" name="notaCorte1"/>
+        </Method>
+        <Method name="setNotaCorte2" returnType="Void" visibility="public">
+          <Argument type="float" name="notaCorte2"/>
+        </Method>
+        <Method name="setNotaCorte3" returnType="Void" visibility="public">
+          <Argument type="float" name="notaCorte3"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

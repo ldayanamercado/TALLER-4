@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="TrianguloIsoscele">
+  <ClassDiagramComponents>
+    <Class name="TrianguloIsoscele" package="" visibility="public" xPosition="204.0" yPosition="117.0">
+      <Fields>
+        <Field name="base" type="float" visibility="private"/>
+        <Field name="altutra" type="float" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getBase" returnType="float" visibility="public"/>
+        <Method name="getAltura" returnType="float" visibility="public"/>
+        <Method name="setBase" returnType="void" visibility="public">
+          <Argument type="float" name="base"/>
+        </Method>
+        <Method name="setAltura" returnType="void" visibility="public">
+          <Argument type="float" name="altura"/>
+        </Method>
+        <Method name="calcularArea" returnType="void" visibility="public"/>
+        <Method name="calcularLongitudd" returnType="void" visibility="public"/>
+        <Method name="calcularPerimetro" returnType="void" visibility="public"/>
+        <Method name="calcularAnguloVertice" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

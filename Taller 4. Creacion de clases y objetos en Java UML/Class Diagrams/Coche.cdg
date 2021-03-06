@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Coche">
+  <ClassDiagramComponents>
+    <Class name="Coche" package="" visibility="public" xPosition="176.0" yPosition="65.0">
+      <Fields>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="marca" type="String" visibility="private"/>
+        <Field name="modelo" type="Int" visibility="private"/>
+        <Field name="numeroCaballos" type="int" visibility="private"/>
+        <Field name="numeroPuerta" type="int" visibility="private"/>
+        <Field name="matricula" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getColor" returnType="String" visibility="public"/>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="getModelo" returnType="String" visibility="public"/>
+        <Method name="getNumeroCaballos" returnType="int" visibility="public"/>
+        <Method name="getNumeroPuertas" returnType="int" visibility="public"/>
+        <Method name="getMatricula" returnType="String" visibility="public"/>
+        <Method name="setColor" returnType="void" visibility="public">
+          <Argument type="String" name="color"/>
+        </Method>
+        <Method name="setMarca" returnType="Void" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+        <Method name="setModelo" returnType="Void" visibility="public">
+          <Argument type="int" name="modelo"/>
+        </Method>
+        <Method name="setNumeroCaballos" returnType="void" visibility="public">
+          <Argument type="int" name="numeroCaballos"/>
+        </Method>
+        <Method name="setNumeroPuertas" returnType="void" visibility="public">
+          <Argument type="int" name="numeroPuertas"/>
+        </Method>
+        <Method name="setMatricula" returnType="void" visibility="public">
+          <Argument type="String" name="matricula"/>
+        </Method>
+        <Method name="registrarCoche" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
